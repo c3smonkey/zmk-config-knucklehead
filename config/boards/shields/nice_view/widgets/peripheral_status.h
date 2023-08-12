@@ -9,13 +9,12 @@
 
 #include <lvgl.h>
 #include <zephyr/kernel.h>
-#include "util2.h"
+#include "util.h"
 
 struct zmk_widget_status {
     sys_snode_t node;
     lv_obj_t *obj;
     lv_color_t cbuf[DISP_WIDTH * BATTERY_HEIGHT];
-    lv_anim_t anim;
     struct status_state state;
 };
 
