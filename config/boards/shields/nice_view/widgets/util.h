@@ -9,6 +9,7 @@
 #include <zmk/endpoints.h>
 
 #define DISP_WIDTH 68
+#define CANVAS_SIZE 68
 
 #define PADDING 4
 #define BATTERY_HEIGHT 17
