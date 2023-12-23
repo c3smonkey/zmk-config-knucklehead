@@ -2,14 +2,14 @@
   flavor = "balanced";
   tapping-term-ms = <TAPPING_TERM_MS>;
   quick-tap-ms = <QUICK_TAP_MS>;
-  global-quick-tap-ms = <GLOBAL_QUICK_TAP_MS>;
+  require-prior-idle-ms = <GLOBAL_QUICK_TAP_MS>;
 };
 
 &lt {
   flavor = "balanced";
   tapping-term-ms = <TAPPING_TERM_MS>;
   quick-tap-ms = <QUICK_TAP_MS>;
-  global-quick-tap-ms = <GLOBAL_QUICK_TAP_MS>;
+  require-prior-idle-ms = <GLOBAL_QUICK_TAP_MS>;
 };
 
 &sk {
