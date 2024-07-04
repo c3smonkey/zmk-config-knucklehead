@@ -14,7 +14,8 @@
 struct zmk_widget_status {
     sys_snode_t node;
     lv_obj_t *obj;
-    lv_color_t cbuf[CANVAS_SIZE * CANVAS_SIZE];
+    lv_color_t cbuf[DISP_WIDTH * BATTERY_HEIGHT];
+    lv_anim_t anim;
     struct status_state state;
 };
 
